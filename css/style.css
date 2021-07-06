@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 15px;
+    overflow-x: hidden;
+}
+ header{
+     width: 100%;
+     background:#F8F9FA;
+     z-index: 10;
+
+ }
+ header nav{
+     width: 100%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 0px 5px 7px 0px silver;
+     flex-wrap: wrap;
+     background: #ffff;
+     position: relative;
+ }
+ header nav .logo{
+     width: 30%;
+     display: flex;
+ }
+ header nav .logo img{
+     width: 120px;
+ }
+ header nav .login-signup{
+     display: flex;
+     justify-content: flex-end;
+     width: 70%;
+ }
+ header nav .login-signup p{
+     font-size: 1.1rem;
+     margin-right: 30px;
+     margin-top: 20px;
+ }
+ header nav .login-signup a{
+     text-decoration: none;
+     color: #202124;
+ }
+ header nav .login-signup button{
+     width: 200px;
+     height: 50px;
+     margin-top: 10px;
+     background-color: #3498db;
+     color: #ffff;
+     border: none;
+ }
+ header nav .login-signup button a{
+     text-decoration: none;
+     color: #ffff;
+ }
+
+ .nav{
+     width: 100%;
+     padding: 2% 2%;
+     display: flex;
+     justify-content: space-between;
+     background: #ffff;
+     border-top: 1px solid grey;
+     box-shadow: 0px 5px 7px 0px grey;
+     display: none;
+ }
+ .nav p a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     color: #202124;
+
+ }
+
+ .get-button{
+     position: absolute;
+     width: 150px;
+     height: 40px;
+     border: none;
+     background: #349de2;
+     color: #ffff;
+     right: 2%;
+     top: 13px;
+     display: none;
+ }
+ .get-button a{
+     text-decoration: none;
+     color: #ffff;
+ }
+/* header section ends */
+.create{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 2%;
+    /* background: #F8F9FA; */
+}
+.create .box{
+    width: 50%;
+}
+.create .text{
+    padding-left: 50px;
+}
+.create .text h1{ 
+   font-size: 3.5rem;
+   font-weight: 500;
+   color: #202124;
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+.create .text button{
+    background-color: #3498db;
+    color: #ffff;
+    width: 170px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+.create .text button a{
+    text-decoration: none;
+    color: #ffff;
+}
+.create img{
+    width: 100%;
+}
+/* create section ends */
+
+/* experience section start */
+
+.experience{
+    width: 100%;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.experience h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.experience .store{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.experience .store a .play-store{
+    width:80%;
+}
+
+/* experience section ends */
+
+/* second image start */
+.second-img{
+    width: 100%;
+}
+.second-img img{
+    width: 100%;
+}
+/* second image ends */
+
+/* third section start */
+.third-section{
+    width: 100%;
+    padding-left:2%;
+    padding-right:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third-section .box{
+    width: 48%;
+    background: #F8F9FA;
+    padding: 2%;
+}
+.third-section .box h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.third-section .box p{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.third-section .box img{
+    width: 100%;
+}
+/* third section ends */
+
+/* fourth section start */
+.fourth-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10% 2%;
+}
+.fourth-section .box{
+    width: 48%;
+}
+.fourth-section .text h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.fourth-section .image img{
+    width: 100%;
+}
+
+/* fourth section ends  */
+
+/* fifth-section start */
+
+.fifth-section{
+    width: 100%;
+    background: #F8F9FA;
+    padding: 5% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fifth-section .box{
+    width: 48%;
+}
+.fifth-section .image img{
+    width: 100%;
+}
+.fifth-section .text h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* fifth-section ends */
+
+/* last section start */
+
+.last-section{
+    width: 100%;
+    padding: 5% 2%;
+    text-align: center;
+}
+.last-section img{
+    width: 70px;
+}
+.last-section h1{
+    font-size: 3rem;
+    color: #202124;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.last-section button{
+    width:200px;
+    height: 40px;
+    border: none;
+    background: #075d97;
+    color: #ffff;
+}
+.last-section button a{
+    text-decoration: none;
+    color: #ffff;
+}
+/* last-section ends */
+
+/* footer start */
+
+footer{
+    width: 100%;
+    padding: 3%;
+    background: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+}
+footer .box1{
+    display: flex;
+    width: 70%;
+}
+footer .box1 a{
+    text-decoration: none;
+    color: #202124;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+footer .box1 .footer-links{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+footer .box1 .footer-links a{
+    font-size: 0.8rem;
+    margin-left: 30px;
+    
+}
+footer .box2 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #202124;
+    margin-top: 5px;
+}
+
+/* footer ends */
+
+
+/* media quary start here */
+
+@media only screen and (max-width:900px){
+    header nav .login-signup{
+        display: none;
+    }
+    header nav{
+        box-shadow: none;
+    }
+    .get-button{
+        display: block;
+    }
+    .nav{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:1200px){
+      html{
+          font-size: 12px;
+      }
+}
+@media only screen and (max-width:900px){
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:830px){
+    .create .box{
+        width: 100%;
+        text-align: center;
+    }
+    .create .text{
+        padding-left:0px;
+    }
+    .third-section .box{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fourth-section .box{
+        width: 100%;
+        text-align: center;
+    }
+    .fourth-section .image{
+        margin-top: 30px;
+    }
+    .fifth-section .box{
+        width: 100%;
+        text-align: center;
+    }
+    .fifth-section .text{
+        order: 1;
+        margin-top: 20px;
+    }
+ 
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .box1{
+        width: 100%;
+    }
+    footer .box2{
+        margin-top:30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer .box1{
+        display: flex;
+     flex-direction: column;
+     text-align: center;
+    }
+    footer .box1 .footer-links{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    footer .box1 .footer-links a{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+}
